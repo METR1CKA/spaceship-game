@@ -1,0 +1,68 @@
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+
+# Archivos de compilación
+*.apk
+*.unitypackage
+*.app
+*.exe
+*.dll
+*.log
+*.obj
+*.suo
+*.pdb
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.sln
+*.sln.docstates
+*.csproj
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+*.pidb.meta
+*.pdb.meta
+*.dll.meta
+*.exe.meta
+*.apk.meta
+*.app.meta
+*.unitypackage.meta
+
+# Archivos de Visual Studio/MonoDevelop
+.vscode/
+.idea/
+.vs/
+.vscode/*
+*.csproj
+*.pidb
+*.userprefs
+*.sln
+*.suo
+
+# Archivos del Editor de Unity
+/[Aa]ssets/[Aa]ssets.meta
+/[Aa]ssets/StreamingAssets/
+/[Aa]ssets/Samples/
+/Assets/**/*.meta
+
+# Sistema operativo específico
+*.swp
+*~
+
+# Unity auto-generated
+/Assets/Generated/
+
+# Crashlytics y servicios relacionados
+Fabric/
+crashlytics-build.properties
+
+# Collaborate files
+/[Uu]ser[Ss]ettings/
