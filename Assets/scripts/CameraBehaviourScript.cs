@@ -29,6 +29,7 @@ public class CameraBehaviourScript : MonoBehaviour
         spawnEnemy2 = false;
 
         PlayerPrefs.SetInt("score", 0);
+
         if (!PlayerPrefs.HasKey("max_score"))
         {
             PlayerPrefs.SetInt("max_score", 0);

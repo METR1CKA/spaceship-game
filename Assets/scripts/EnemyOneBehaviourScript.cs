@@ -19,7 +19,7 @@ public class EnemyOneBehaviourScript : MonoBehaviour
     {
         soundScript = GameObject.FindGameObjectWithTag("sound").GetComponent<SoundBehaviourScript>();
         hit = 0;
-        next_shot_time = Time.time + 2.0f;
+        next_shot_time = Time.time + 1.0f;
     }
 
     // Update is called once per frame
@@ -28,7 +28,7 @@ public class EnemyOneBehaviourScript : MonoBehaviour
         if (Time.time > next_shot_time)
         {
             Shoot();
-            next_shot_time += 2.0f;
+            next_shot_time += 1.0f;
         }
     }
 

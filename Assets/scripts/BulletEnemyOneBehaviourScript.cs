@@ -16,7 +16,7 @@ public class BulletEnemyOneBehaviourScript : MonoBehaviour
 
     public void SetDirection(Vector2 direction)
     {
-        bullet_velocity = direction * 1.0f;
+        bullet_velocity = direction * 0.1f;
     }
 
     private void FixedUpdate()

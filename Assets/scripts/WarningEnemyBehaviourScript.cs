@@ -17,5 +17,20 @@ public class WarningEnemyBehaviourScript : MonoBehaviour
         {
             GetComponent<TextMeshProUGUI>().text = "WARNING: ENEMY 1 APPROACHING";
         }
+
+        // if (PlayerPrefs.HasKey("score") && PlayerPrefs.GetInt("score") >= 100)
+        // {
+        //     GetComponent<TextMeshProUGUI>().text = "WARNING: ENEMY 1 APPROACHING";
+        // }
+
+        // if (PlayerPrefs.HasKey("score") && PlayerPrefs.GetInt("score") >= 300)
+        // {
+        //     GetComponent<TextMeshProUGUI>().text = "WARNING: ENEMY 2 APPROACHING";
+        // }
+
+        // if (PlayerPrefs.HasKey("score") && PlayerPrefs.GetInt("score") >= 300)
+        // {
+        //     GetComponent<TextMeshProUGUI>().text = "WARNING: ALL ENEMIES APPROACHING";
+        // }
     }
 }

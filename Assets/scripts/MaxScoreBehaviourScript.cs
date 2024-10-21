@@ -13,19 +13,6 @@ public class MaxScoreBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if (PlayerPrefs.HasKey("score") && PlayerPrefs.GetInt("score") >= 100)
-        // {
-        //     GetComponent<TextMeshProUGUI>().text = "WARNING: ENEMY 1 APPROACHING";
-        // }
-
-        // if (PlayerPrefs.HasKey("score") && PlayerPrefs.GetInt("score") >= 300)
-        // {
-        //     GetComponent<TextMeshProUGUI>().text = "WARNING: ENEMY 2 APPROACHING";
-        // }
-
-        // if (PlayerPrefs.HasKey("score") && PlayerPrefs.GetInt("score") >= 300)
-        // {
-        //     GetComponent<TextMeshProUGUI>().text = "WARNING: ALL ENEMIES APPROACHING";
-        // }
+        GetComponent<TextMeshProUGUI>().text = "MAX " + PlayerPrefs.GetInt("max_score");
     }
 }
