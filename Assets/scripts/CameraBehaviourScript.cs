@@ -5,19 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class CameraBehaviourScript : MonoBehaviour
 {
+    // Game objects
     public GameObject asteroid;
     public GameObject enemyPrefab;
     public GameObject enemyPrefab2;
     public GameObject powerUpPrefab;
     public GameObject powerUp2Prefab;
     public GameObject powerUp3Prefab;
+
+    // Spawn times
     float next_spawn_time;
     float next_enemy1_spawn_time;
     float next_enemy2_spawn_time;
+    // float next_powerup1_spawn_time;
+    // float next_powerup2_spawn_time;
+    // float next_powerup3_spawn_time;
+
+    // Spawn flags
     bool spawnEnemy1 = false;
     bool spawnEnemy2 = false;
-    float screenWidth = 7.5f;
-    float screenHeight = 4.5f;
+    // bool spawnPowerUp1 = false;
+    // bool spawnPowerUp2 = false;
+    // bool spawnPowerUp3 = false;
+
+    // Screen dimensions
+    float screenWidth;
+    float screenHeight;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +38,10 @@ public class CameraBehaviourScript : MonoBehaviour
         next_spawn_time = Time.time + 4.0f;
         next_enemy1_spawn_time = Time.time + 4.0f;
         next_enemy2_spawn_time = Time.time + 5.0f;
+
+        screenWidth = 7.5f;
+        screenHeight = 4.5f;
+
         spawnEnemy1 = false;
         spawnEnemy2 = false;
 
